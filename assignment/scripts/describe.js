@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called name and set it to Dane as a string.
+// We check if the name variable is equal to Mary using a strict equality operator
+// This returns a false so the console doesn't log 'Hi, Mary!' and moves on to the else
+// The else requires nothing so we console.log 'How do you do'
 
 //CODE
 /*
@@ -45,10 +45,14 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable called 'secret' with no value.
+// We create a variable called 'code' with a value of 123.
+// We check to see if the 'code' variable is equal to 123 using a strick equality operator.
+//'code' is equal to 123 so we assign the string 'super' to the variable 'secret'.
+// and we multiply 'code' by 2. 'code' now has a value of 246.
+// We check to see if 'code' is greater than 250
+// 'code' is not greater than 250 so we do not assign 'secret' the string 'duper'
+// We console.log 'secret' and our console will give us the string 'super'
 
 //CODE
 /*
@@ -70,10 +74,16 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We create a variable 'isStudent' and set it to 'true'
+// We create a variable 'age' and give it the value 34.
+// We create a variable 'zip' and give it the value 55407.
+// We check to see if 'isStudent' equal to 'true' and if 'zip' is greater than 80000
+// 'isStudent' is true but 'zip' is less than 80000 so we do not console.log 'You're a student on the West Coast!'
+// We then check if 'isStudent' equal to false or if 'age' is less than 30.
+// 'isStudent' is not equal to false and 'age' is greater than 30 so we do not console.log 'What are your hobbies?'
+// We then check if 'isStudent' is equal to true.
+// 'isStudent' is equal to true so we console.log 'Welcome to Prime!' and our console will read 'Welcome to Prime!'
+// Since 'isStudent' is true we will not execute any further code and 'How about the weather' will not read in our console.
 
 //CODE
 /*
@@ -130,9 +140,16 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+
+// FIX - colorOne is set to 'red' and colorTwo is set to 'blue'
+// colorOne should be set to 'blue and colorTwo should be set to 'red'
+
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
+
+// FIX - 'mix' is true so we should be setting colorOne and colorTwo to 'purple'
+// colorTwo should be set to 'purple'
 
 if (mix === true) {
   colorOne = 'purple';
@@ -144,8 +161,15 @@ if (mix === true) {
 // -- they are so we console.log 'throw away the food!'
 
 /*
+
+// FIX - 'time' is a const and should be a variable.
+// should be let time not const time.
+
 let temp = 40;
 const time = 4;
+
+// FIX - The if statement is checking if 'temp' is greather than 39 or time is greater or equal to 4.
+// The if statement should be checking if both are correct using logical && operator.
 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
@@ -157,8 +181,18 @@ if (temp > 39 || time >= 4) {
 // -- it is, so we console.log 'enter'.
 
 /*
+
+// FIX - 'minAge' is a const and not a variable. 
+// it should be let minAge = 21;   //Note I believe this is correct as the description says we start with two variables.
+
 let age = 21;
 const minAge = 21;
+
+// FIX - The if statement is checking if 'minAge' is less than or equal to 'age'
+// it should be checking 'age' is greater than or equal to 'minAge'
+// FIX - The statement will console.log 'no entry' if 'age' is greater than or equal to 'minAge'
+// The executed code should be switched so that it console.log 'enter' when
+// 'age' is greater than or equal to 'minAge'
 
 if(minAge <= age) {
   console.log('no entry');
